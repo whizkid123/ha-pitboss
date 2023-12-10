@@ -48,8 +48,6 @@
   "loggers": [
     "pytboss"
   ],
-  "requirements": [
-    "requirements":["git+https://github.com/whizkid123/pytboss#pytboss==2023.9.1"]
-  ],
+    "requirements":["git+https://github.com/whizkid123/pytboss#pytboss==2023.9.1"],
   "version": "2023.9.1"
 }
