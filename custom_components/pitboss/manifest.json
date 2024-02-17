@@ -12,7 +12,19 @@
     },
     {
       "connectable": true,
+      "local_name": "PBA-*"
+    },
+    {
+      "connectable": true,
+      "local_name": "PBB-*"
+    },
+    {
+      "connectable": true,
       "local_name": "PBC-*"
+    },
+    {
+      "connectable": true,
+      "local_name": "PBD-*"
     },
     {
       "connectable": true,
@@ -32,6 +44,10 @@
     },
     {
       "connectable": true,
+      "local_name": "PBT-*"
+    },
+    {
+      "connectable": true,
       "local_name": "PBV-*"
     }
   ],
@@ -48,6 +64,8 @@
   "loggers": [
     "pytboss"
   ],
-    "requirements":["git+https://github.com/whizkid123/pytboss#pytboss==2023.9.1"],
-  "version": "2023.9.1"
+  "requirements": [
+    "pytboss==2024.2.1"
+  ],
+  "version": "2024.2.1"
 }
